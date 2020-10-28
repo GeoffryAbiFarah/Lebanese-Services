@@ -1,3 +1,8 @@
+:root {
+  --headerColor: #033ba3;
+  --footerColor: #d6d6d6;
+}
+
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
@@ -11,15 +16,16 @@
 }
 
 .footer {
-  background-color: #d1c4e9;
+  background-color: var(--footerColor);
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
+  border-top: #0f0f0f solid 1px;
 }
 
 .jumbotron {
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
-  background: #b9b9b9;
+  background: var(--footerColor);
   color: floralwhite;
 }
 
@@ -35,5 +41,13 @@ body {
 }
 
 .navbar-dark {
-  background-color: #002e85;
+  background-color: var(--headerColor);
+}
+
+.list-unstyled > li > a {
+  color: black;
+}
+
+.social-icons > a {
+  margin-left: 2%;
 }
