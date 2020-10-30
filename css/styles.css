@@ -14,8 +14,6 @@
 .row-content {
   margin: 0px auto;
   padding: 50px 0px 50px 0px;
-  border-bottom: 1px ridge;
-  min-height: 400px;
 }
 
 .footer {
@@ -85,7 +83,6 @@ body {
   color: #0f0f0f;
 }
 
-
 ul {
   color: black;
 }
@@ -101,3 +98,13 @@ div.item {
   display: block;
 }
 
+.co-founders-imgs {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: url(img/tiger.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 8px 8px 5px #ccc;
+  /* -moz-border-radius: 25px; */
+  /* -webkit-border-radius: 25px; */
+}
