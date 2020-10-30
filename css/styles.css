@@ -85,6 +85,11 @@ body {
   color: #0f0f0f;
 }
 
+
+ul {
+  color: black;
+}
+
 div.item {
   vertical-align: top;
   display: inline-block;
@@ -95,3 +100,4 @@ div.item {
 .caption {
   display: block;
 }
+
