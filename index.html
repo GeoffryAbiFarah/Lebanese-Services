@@ -11,7 +11,7 @@
     <link rel="icon" href="./images/initials-logo.jpg" type="image/icon type">
     <title>Lebanese Services</title>
 </head>
-<body>
+<body  style="background-color:rgb(235, 235, 235);">
     <!-- NAVBAR -->
     <nav class="navbar navbar-dark navbar-expand-md fixed-top">
         <div class="container">
@@ -26,7 +26,7 @@
     
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ml-auto active"><a class="nav-link" href="#"> Home</a>
+                    <li class="nav-item ml-auto active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a>
                     </li>
                     <li class="nav-item ml-auto"><a class="nav-link" href="./service.html"> Add Your Service</a></li>
                     <li class="nav-item ml-auto"><a class="nav-link" href="./account.html"></span>
@@ -39,67 +39,123 @@
         </div>
     </nav>
 <!-- HEADER -->
+
+<div class="container" >
+    <div class="row row-content">
+        <div class="col">
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item  active">
+                        <img src="images/lebanon.jpg" alt="utha" class="d-block img-fluid">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="mt-0">Lebanon</h2>
+                           
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/liban1.jpg" class="d-block img-fluid">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="mt-0">Liban</h2>
+                        
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/lebanon1.jpg" alt="buffet" class="d-block img-fluid">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="mt-0">لبنان</h2>
+                            <!-- <h4>Executive Chef</h4> -->
+    
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+
+                <a href="#mycarousel" role="button" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#mycarousel" role="button" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
     <header class="jumbotron">
         <div class="container">
-            <div class="headerQuestion row justify-content-center">
-                <div class="col-12 offset-md-2 col-md-9">
-                    <h1>What are you looking for?</h1>
-                    </div>
-            </div>
-            <br><br>
-            <div class="row row-header ">
-                <div class="col-12 col-md-4 ">
-                    <h3><a class="btn btn-primary" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="homeServicesId" href="#homeServicesId" ><i class="fa fa-home"></i> Home Services</a></h3>
-                    <div class="collapse" id="homeServicesId">
-                        <div class="card card-body ">
-                            <ul class="unstyled">
-                        <li><a href="#">Plumber</a> </li>
-                        <li><a href="#">Electrician</a> </li>
-                        <li><a href="#">House Cleaner</a> </li>
-                        <li><a href="#">Electronics Repair Technician</a> </li>
-                        <li><a href="#">Woodworker</a> </li>
-                        <li><a href="#">Other Home Services</a> </li>
-                    </ul>
-                        </div>
-                    </div>
+            <div >
+                <div class="headerQuestion row align-self-left">
                     
-                </div>
-                <div class="col-12 col-md-4">
-                    <h3><a class="btn btn-primary" data-toggle="collapse" role="button" aria-expanded="true"
-                            aria-controls="personalServicesId" href="#personalServicesId"><i class="fa fa-user"></i> Personal Services</a></h3>
-                    <div class="collapse" id="personalServicesId">
-                        <div class="card card-body">
-                            <ul class="unstyled">
-                                <li><a href="#">Tutor</a> </li>
-                                <li><a href="#">Babysitter</a> </li>
-                                <li><a href="#">Beautician</a> </li>
-                                <li><a href="#">Hairdresser</a> </li>
-                                <li><a href="#">Fitness Instructor</a> </li>
-                                <li><a href="#">Life Coach</a> </li>
-                                <li><a href="#">Cook</a> </li>
-                                <li><a href="#">Other Personal Services</a> </li>
-                            </ul>
+                    <div class="col-12 offset-md-4 col-md-9 ">
+                    
+                            <h3>What are you looking for?</h3>
+                            
+                       
+                        
                         </div>
+                </div>
+                <br><br>
+                <div class="row row-header ">
+                    <div class="col-12 col-md-4 ">
+                        <h3><a class="btn btn-primary col-md-11" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="homeServicesId" href="#homeServicesId" ><i class="fa fa-home"></i> Home Services</a></h3>
+                        <div class="collapse" id="homeServicesId">
+                            <div class="card card-body ">
+                                <ul class="unstyled">
+                            <li><a href="#">Plumber</a> </li>
+                            <li><a href="#">Electrician</a> </li>
+                            <li><a href="#">House Cleaner</a> </li>
+                            <li><a href="#">Electronics Repair Technician</a> </li>
+                            <li><a href="#">Woodworker</a> </li>
+                            <li><a href="#">Other Home Services</a> </li>
+                        </ul>
+                            </div>
+                        </div>
+                        
                     </div>
-                
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <h3><a class="btn btn-primary" data-toggle="collapse" role="button" aria-expanded="true"
-                            aria-controls="designServicesId" href="#designServicesId"><i class="fa fa-laptop"></i> Design & IT Services</a></h3>
-                    <div class="collapse" id="designServicesId">
-                        <div class="card card-body">
-                            <ul class="unstyled ">
-                                <li><a href="#">Web Developer</a> </li>
-                                <li><a href="#">Graphic Designer</a> </li>
-                                <li><a href="#">Photographer</a> </li>
-                                <li><a href="#">Other Design & IT Services</a> </li>
-                            </ul>
+                    <div class="col-12 col-md-4">
+                        <h3><a class="btn btn-primary col-md-11" data-toggle="collapse" role="button" aria-expanded="true"
+                                aria-controls="personalServicesId" href="#personalServicesId"><i class="fa fa-user"></i> Personal Services</a></h3>
+                        <div class="collapse" id="personalServicesId">
+                            <div class="card card-body">
+                                <ul class="unstyled">
+                                    <li><a href="#">Tutor</a> </li>
+                                    <li><a href="#">Babysitter</a> </li>
+                                    <li><a href="#">Beautician</a> </li>
+                                    <li><a href="#">Hairdresser</a> </li>
+                                    <li><a href="#">Fitness Instructor</a> </li>
+                                    <li><a href="#">Life Coach</a> </li>
+                                    <li><a href="#">Cook</a> </li>
+                                    <li><a href="#">Other Personal Services</a> </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div> 
+                    
+                    </div>
+    
+                    <div class="col-12 col-md-4">
+                        
+
+                        <h3><a class="col-12 col-md-11 btn btn-primary" data-toggle="collapse" role="button" aria-expanded="true"
+                                aria-controls="designServicesId" href="#designServicesId"><i class="fa fa-laptop"></i> Design & IT Services</a></h3>
+                        <div class="collapse" id="designServicesId">
+                            <div class="card card-body">
+                                <ul class="unstyled ">
+                                    <li><a href="#">Web Developer</a> </li>
+                                    <li><a href="#">Graphic Designer</a> </li>
+                                    <li><a href="#">Photographer</a> </li>
+                                    <li><a href="#">Other Design & IT Services</a> </li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
                 </div>
             </div>
         </div>
+            
     </header>
 <br><br>
     <!-- FOOTER -->

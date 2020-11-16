@@ -14,7 +14,7 @@
     "lite-server": "^2.5.4"
   },
   "scripts": {
-    "dev":"lite-server",
+    "dev": "lite-server",
     "test": "mocha"
   },
   "repository": {
