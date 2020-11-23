@@ -45,7 +45,7 @@
         <div class="row row-content">
             <div class="col-12 text-center">
                 <h3>Kindly add your Service Here</h3>
-                <h7>By Applying, you agree that you take full responsability of ...</h7><br>
+                <h7>By Applying you agree to the terms and conditions of the website</h7><br>
             </div>
     
         </div>
@@ -53,23 +53,14 @@
             <form action="">
                 <br>
                 <div class="form-group row">
-                    <label for="firstname" class="col-md-3 col-form-label">First Name</label>
+                    <label for="job" class="col-md-3 col-form-label">Service</label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
-                    </div>
-                </div>
-                <div class="form-group row ">
-                    <label for="lastname" class="col-md-3 col-form-label">Last Name</label>
-                    <div class="col-md-9">
-                        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        <input type="text" class="form-control" id="service" name="service" placeholder="Enter your service here">
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="telnum" class="col-12 col-md-3 col-form-label">Contact Tel.</label>
-                    <div class="col-5 col-md-3">
-                        <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
-                    </div>
-                    <div class="col-7 col-md-6">
+                    <div class="col-md-9">
                         <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
                     </div>
                 </div>
@@ -79,12 +70,7 @@
                         <input type="text" class="form-control" id="email" name="email" placeholder="Email">
                     </div>
                 </div>
-                <div class="form-group row">
-                    <label for="job" class="col-md-3 col-form-label">Job</label>
-                    <div class="col-md-9">
-                        <input type="text" class="form-control" id="job" name="job" placeholder="Enter your Job here">
-                    </div>
-                </div>
+                
                 <div class="form-group row">
                     <label for="zone" class="col-md-3 col-form-label">Work Areas</label>
                     <div class="col-md-9">
@@ -100,12 +86,24 @@
     
     
                     </div>
+                    <label for="category" class="col-md-3 col-form-label">Category</label>
+                    <div class="col-md-9">
+    
+                        <select name="category">
+                            <option value="none">Other</option>
+                            <option value="home">Home Services</option>
+                            <option value="personal">Personal Services</option>
+                            <option value="design">Design & IT Services</option>
+                        </select>
+    
+    
+                    </div>
                 </div>
     
                 <div class="form-group row">
-                    <label for="goal" class="col-md-3 col-form-label">Your Goal</label>
+                    <label for="goal" class="col-md-3 col-form-label">Description</label>
                     <div class="col-md-9">
-                        <textarea class="form-control" id="goal" name="goal" rows="12"></textarea>
+                        <textarea class="form-control" id="description" name="description" rows="8" placeholder="Describe the service you're"></textarea>
                     </div>
                 </div>
                 
